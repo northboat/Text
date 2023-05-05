@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('生日快乐鸭！|祝福姐姐|天天开心|万事如意|心想事成|吉祥如意||爱你的熊|');
+      S.UI.simulate('生日快乐鸭！|祝福姐姐|顺心如意|安康快乐|光芒四射|健康幸福|爱你的熊');
     }
 
     S.Drawing.loop(function () {
